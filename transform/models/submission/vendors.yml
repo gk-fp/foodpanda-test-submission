@@ -1,0 +1,21 @@
+models:
+  - name: vendors
+    description: >
+      Vendors Schema
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - name: id
+        description: Vendor ID.
+      - name: rdbms_id
+        description: ID of relational database management system to get this data.
+      - name: country_name
+        description: Name of country.
+      - name: is_active
+        description: Whether vendor is active or not.
+      - name: vendor_name
+        description: Name of vendor.
+      - name: budget
+        description: Budget for each vendor.
+      - name: chain_id
+        description: Vendor Chain ID.
